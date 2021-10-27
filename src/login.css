@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: all 0.2s linear;
+  }
+  section{
+    background-repeat: no-repeat;
+    /* background-color: #bf7f20; */
+    background-image: url("https://cdn.pixabay.com/photo/2014/09/26/16/38/books-462579_960_720.jpg");
+    background-size: cover;
+  }
+
+  .main {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  .submain {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 400px;
+    background: rgba(8, 10, 10, 0.7);
+    /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3); */
+  }
+  .log_h1 {
+    font-size: 2 rem;
+    color: #fff;
+    /* border: 2px solid black; */
+    border-bottom: 4px solid #e74c3c;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  .buttons {
+    /* border: 2px solid black; */
+    display: flex;
+  }
+  .sign-btn {
+    margin: 20px;
+    margin-bottom: 30px;
+    padding: 9px;
+    border: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    background: #12c5a1;
+    color: #f7f5f5;
+    font-weight: bold;
+    border-radius: 3px;
+  }
+  .sign-btn:hover {
+    letter-spacing: 0.8px;
+    background: #218c74;
+    color: #fff;
+  }
+  
+  form {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 100vw; */
+    height: 100px;
+    margin-top: 20px;
+  }
+  .log_input {
+    padding: 7px;
+    margin-top: 8px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+  }
+  .log_input:hover {
+    padding: 11px;
+  }
+  .rgbtn,
+  .sbtn {
+    margin-top: 15px;
+    width: 191px;
+    padding: 7px;
+    border: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    background: #12e4ba;
+    color: #363636;
+    font-weight: bold;
+    border-radius: 3px;
+  }
+  .sbtn:hover {
+    letter-spacing: 1px;
+    background: #218c74;
+    color: #fff;
+    padding: 11px;
+  }
+  .rgbtn:hover {
+    letter-spacing: 1px;
+    background: #218c74;
+    color: #fff;
+    padding: 11px;
+  }
+  
+  /* Style of Menu */
+  
+  .mainM {
+    background: #e74c3c;
+    height: 100vh;
+    width: 100vw;
+  }
